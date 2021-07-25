@@ -23,7 +23,7 @@ This page needs some content. You can contribute to it using the Edit Button!
 |keys|coins|Starting keys|
 |coins|int|Starting coins|
 |card|int|Starting card ID|
-|pill|int||
+|pill|int|Starting pill ID|
 |canShoot|bool|False = blindfolded|
 |achievement|int|Tie the character to a vanilla achievement|
 |broken|string|Starting broken hearts [ ](#){: .rep .tooltip .badge }|
