@@ -17,13 +17,13 @@ This page needs some content. You can contribute to it using the Edit Button!
 |armor|int|Starting soul hearts (1 = half soul heart)|
 |black|int|Starting  black hearts (1 = half black heart)|
 |items|int|Starting item ID (can separate with a comma to add more than one)|
-|costume|int||
-|costumeSuffix|string||
+|costume|int|Starting costume ID|
+|costumeSuffix|string|Name of the character on the start of the anm2 file (example: bob_spoon bender will not replace the spoon bender for all characters)|
 |bombs|int|Starting bombs|
 |keys|coins|Starting keys|
 |coins|int|Starting coins|
 |card|int|Starting card ID|
-|pill|int||
+|pill|int|Starting pill ID|
 |canShoot|bool|False = blindfolded|
 |achievement|int|Tie the character to a vanilla achievement|
 |broken|string|Starting broken hearts [ ](#){: .rep .tooltip .badge }|
@@ -44,7 +44,7 @@ Example of a players.xml file:
           nameimage="playername_Bob.png" 
           portrait="playerportrait_Bob.png" 
           bigportrait="playerbigportrait_Bob.png"
-          skinColor="-1" canShoot="false"
+          skinColor="-1" canShoot="false" costumeSuffix="bob"
           birthright="You are now a gamer"/>
 </players>
 ```
